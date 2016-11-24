@@ -7,7 +7,7 @@ public class Rectangle extends Square {
     private int height;
 
     /**
-     * 
+     * Constructor that takes the x and the y-coordinates and draws a rectangle with the specified height and width. Sets the color to c.
      * @param x Distance right from origo.
      * @param y Distance down from origo.
      * @param width Width of the rectangle.
@@ -27,7 +27,7 @@ public class Rectangle extends Square {
     public Rectangle(GeometricalForm f, int width, int height, Color c) {}
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     @Override
     public int getArea() {
@@ -35,7 +35,7 @@ public class Rectangle extends Square {
     }
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     @Override
     public int getPerimeter() {
@@ -43,7 +43,7 @@ public class Rectangle extends Square {
     }
     
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     @Override
     public int getHeight() {
