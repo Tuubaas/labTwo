@@ -55,4 +55,11 @@ public class Circle extends GeometricShape {
     public int getPerimeter() {
         return 0;
     }
+
+    /**
+    * Method for getting the rdius of the circle. 
+    */
+    private int getRadius() {
+        return 0;
+    }
 }
