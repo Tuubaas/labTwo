@@ -26,7 +26,7 @@ public class Line extends GeometricShape {
     public Line(GeometricalForm f1, GeometricalForm f2, Color c) {}
 
     /**
-     * @inheritDoc
+     * The area for Line is always zero.
      */
     @Override
     public int getArea() {
@@ -34,7 +34,7 @@ public class Line extends GeometricShape {
     }
 
     /**
-     * @inheritDoc
+     * The perimeter for the line is its length.
      */
     @Override
     public int getPerimeter() {
