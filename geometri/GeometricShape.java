@@ -65,7 +65,7 @@ public abstract class GeometricShape implements GeometricalForm {
      * @return Returns true if the objects are equal.
      */
     @Override
-    public boolean equals(Object o) {
+    public abstract boolean equals(Object o) {
         return false;
     }
 
@@ -74,7 +74,7 @@ public abstract class GeometricShape implements GeometricalForm {
      * @return Returns an unique integer number.
      */
     @Override
-    public int hashCode() {
+    public abstract int hashCode() {
         return 0;
     }
 
