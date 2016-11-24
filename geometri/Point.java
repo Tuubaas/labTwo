@@ -23,7 +23,7 @@ public class Point extends GeometricShape {
     public Point(GeometricalForm f, Color c) {}
 
     /**
-     * @inheritDoc
+     * The Area for the point is always zero.
      */
     @Override
     public int getArea() {
@@ -31,7 +31,7 @@ public class Point extends GeometricShape {
     }
 
     /**
-     * @inheritDoc
+     * The perimeter for the point is always zero.
      */
     @Override
     public int getPerimeter() {
